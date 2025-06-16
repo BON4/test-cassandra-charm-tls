@@ -81,12 +81,11 @@ After running the script, you'll have:
 1. Update `cqlshrc` configuration file with:
    - Path to client certificate
    - Path to client key
-   - Path to truststore
    - Cassandra node IP address
 
 ### Connecting with cqlsh
 ```bash
-cqlsh --ssl --cqlshrc=/path/to/cqlshrc <cassandra_ip>
+cqlsh --ssl --cqlshrc=/path/to/cqlshrc
 ```
 
 ## Important Notes
