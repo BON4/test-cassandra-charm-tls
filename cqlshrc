@@ -1,0 +1,9 @@
+[connection]
+hostname = 10.145.156.190
+port = 9042
+
+[ssl]
+certfile = /home/bon/repos/my-charmed-cassandra-snap/tls/rootCa.crt
+validate = true
+userkey = /home/bon/repos/my-charmed-cassandra-snap/tls/client.key
+usercert = /home/bon/repos/my-charmed-cassandra-snap/tls/client.crt
