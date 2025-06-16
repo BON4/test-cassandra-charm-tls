@@ -1,9 +1,9 @@
 [connection]
-hostname = 10.145.156.190
+hostname = <IP1>
 port = 9042
 
 [ssl]
-certfile = /home/bon/repos/test-cassandra-charm-tls/client.crt
+certfile = ./client/client.crt
 validate = true
-userkey = /home/bon/repos/test-cassandra-charm-tls/client.key
-usercert = /home/bon/repos/test-cassandra-charm-tls/client.crt
+userkey = ./client/client.key
+usercert = ./client/client.crt

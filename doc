@@ -1,8 +1,0 @@
-Cassandra TLS setup
-
-Steps to create all the nessasary files:
-1. Create rootCA
-2. Create general .jks truststore 
-3. Create .jks keystore for each node in cluster
-4. Create and sign csr for all nodes in cluster
-5. Import rootCa and nodeCa to the coresponding keysotre
