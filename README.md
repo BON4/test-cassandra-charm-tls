@@ -71,11 +71,11 @@ After running the script, you'll have:
 ### Server Configuration
 1. Copy the node's `.jks` file to the Cassandra node
 2. Copy the `generic-server-truststore.jks` to all nodes
-3. Update `cassandra.yaml` with SSL settings (use cassandra_node1.yaml and cassandra_node2.yaml in this codebase for reference):
+3. Update `cassandra.yaml` with SSL settings (use [cassandra_node1.yaml](https://github.com/BON4/test-cassandra-charm-tls/blob/main/cassandra_node1.yaml) and [cassandra_node2.yaml](https://github.com/BON4/test-cassandra-charm-tls/blob/main/cassandra_node2.yaml) in this codebase for reference):
    - Point to the node's keystore
    - Point to the shared truststore
    - Configure SSL ports and encryption
-4. Update `cassandra-env.sh` (use cassandra-env.sh in this codebase for reference)
+4. Update `cassandra-env.sh` (use [cassandra-env.sh](https://github.com/BON4/test-cassandra-charm-tls/blob/main/cassandra-env.sh) in this codebase for reference)
 
 ### Client Configuration
 1. Update `cqlshrc` configuration file with:
